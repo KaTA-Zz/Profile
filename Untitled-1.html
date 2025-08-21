@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giới thiệu Nguyễn Hoàng Khang</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #fff);
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 40px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      text-align: center;
+      animation: fadeIn 1.5s ease;
+    }
+    h1 {
+      color: #00796b;
+      font-size: 36px;
+      margin-bottom: 10px;
+      animation: slideDown 1s ease;
+    }
+    p {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.6;
+      animation: fadeInText 2s ease;
+    }
+    .avatar {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #00796b;
+      margin-bottom: 20px;
+      animation: zoomIn 1s ease;
+    }
+    .illustration {
+      width: 100%;
+      max-width: 600px;
+      margin: 30px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      animation: floatUp 2s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    @keyframes fadeInText {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes floatUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="avatar.jpg" alt="Ảnh đại diện của Nguyễn Hoàng Khang" class="avatar">
+    <h1>Nguyễn Hoàng Khang</h1>
+    <p><strong>Ngày sinh:</strong> 08/10/2005</p>
+    <p><strong>Sinh viên năm 3</strong> tại Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE)</p>
+    <p><strong>Ngành học:</strong> An toàn thông tin</p>
+    <p>Tôi là người yêu thích công nghệ và đam mê lĩnh vực bảo mật. Mục tiêu của tôi là trở thành chuyên gia an toàn thông tin, góp phần bảo vệ dữ liệu và hệ thống trong thế giới số.</p>
+
+    <img src="illustration.jpg" alt="Hình minh họa về công nghệ" class="illustration">
+  </div>
+</body>
+</html>
