@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #e0f7fa, #fff);
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
       margin: 0;
       padding: 0;
       overflow-x: hidden;
@@ -51,6 +51,31 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
       animation: floatUp 2s ease;
     }
+    .contact {
+      margin-top: 40px;
+      animation: fadeIn 2s ease;
+    }
+    .contact h2 {
+      color: #00796b;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: transform 0.3s ease;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    .facebook { background-color: #3b5998; }
+    .zalo { background-color: #008fe5; }
+    .discord { background-color: #5865F2; }
+    .phone { background-color: #4CAF50; }
 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
@@ -84,6 +109,14 @@
     <p>Tôi là người yêu thích công nghệ và đam mê lĩnh vực bảo mật. Mục tiêu của tôi là trở thành chuyên gia an toàn thông tin, góp phần bảo vệ dữ liệu và hệ thống trong thế giới số.</p>
 
     <img src="illustration.jpg" alt="Hình minh họa về công nghệ" class="illustration">
+
+    <div class="contact">
+      <h2>Liên hệ với tôi</h2>
+      <a href="https://www.facebook.com/NguyenHoangKhang0810" target="_blank" class="btn facebook">Facebook</a>
+      <a href="https://zalo.me/0939145595"btn zalo">Zalo</a>
+      <a href="https://discord.com/users/darknight6208" target="_blank" class="btn discord">Discord</a>
+      <a href="tel:093914595" class="btn phone">Gọi điện</a>
+    </div>
   </div>
 </body>
 </html>
